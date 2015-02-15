@@ -1,0 +1,159 @@
+@charset "utf-8";
+
+body {
+	
+	background-color: #485C5A;
+	font-family: "Helvetica nueue", Helvetica, sans-serif;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0px;	
+}
+
+a {
+	text-decoration: none;	
+}
+
+p {
+	margin: 0 0 8px 0;	
+}
+
+.collapse {
+	display: none;	
+}
+
+.expand {
+	display: block;
+}
+
+.nobr {
+	white-space: nowrap;	
+}
+.container {
+	background-color: #FFFFFF;
+	margin: 0 auto;
+	width: 960px;
+}
+
+.side {
+	display: block;
+	float: left;
+	padding: 48px 0 0 50px;
+	width: 250px;	
+}
+
+.content {
+	display: block;
+	float: left;
+	padding: 48px 0 0 0;
+	width: 650px;
+	
+}
+
+.container:after {
+	content: "";
+	clear: both; 
+	display: block;	
+}
+
+.logo {
+	color: #000033;
+	display: block;
+	font-size: 32px;
+	margin: 0 0 24px 0;
+	text-shadow: 2px 2px 2px #999999;
+}
+
+.side h4 {
+	color: #2F2F2F;	
+	font-weight: normal;
+	font-size: 16px;
+}
+
+.movie-list .loading {
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	width: 100%;
+}
+
+.movie-list .loading .img {
+	display: none;
+	position: relative;
+	top: 22px;
+}
+
+
+
+.movie {
+	clear: both;
+	font-size: 12px;
+	margin: 0 0 32px 0;
+}
+
+.movie:after {
+	content: "";
+	clear: both; 
+	display: block;	
+}
+
+.movie .movie-img {
+	float: left;
+	height: 212px;
+	margin: 0 18px 0 0;
+	width: 150px;
+}
+
+.movie .movie-img img {
+	height: auto;
+	width: 100%;	
+}
+
+.movie h1 {
+	
+	display: inline-block;
+	color: #292929;
+	font-size: 28px;
+	margin: 0 16px 0 0;
+	max-width: 300px;
+}
+
+.movie span {
+	display: inline-block;
+	margin: 0 0 8px 0;	
+}
+
+.movie .length {
+	font-size: 12px;	
+}
+
+.movie .rating {
+	background-image: url(../img/sprites.png);
+	display: inline-block;
+}
+.movie .rating-g {
+	background-position: -72px -3px;
+		
+	height: 15px;
+	width: 18px;	
+}
+
+.movie .rating-pg {
+	background-position: -91px -3px;
+		
+	height: 15px;
+	width: 27px;	
+}
+
+.movie .rating-pg13 {
+	background-position: -119px -3px;
+		
+	height: 15px;
+	width: 44px;	
+}
+
+.movie .rating-r {
+	background-position: -165px -3px;
+		
+	height: 15px;
+	width: 18px;	
+}
